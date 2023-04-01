@@ -1,0 +1,44 @@
+.reli {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-color: #000000;
+    padding-top: 50px;
+
+    .reli_box {
+        width: 50%;
+        height: 1px;
+        background-color: #fff;
+        margin: auto;
+
+    }
+
+
+    h3 {
+        padding-top: 50px;
+        font-size: 30px;
+        font-weight: 100;
+        color: #E11B22;
+    }
+
+    p {
+        width: 60%;
+        padding-top: 50px;
+        color: #fff;
+        margin: auto;
+        line-height: 30px;
+    }
+
+    img {
+        width: auto;
+        margin-top: 80px;
+    }
+}
+
+@media(max-width:350px) {
+    .reli {
+        img {
+            width: 50%;
+        }
+    }
+}

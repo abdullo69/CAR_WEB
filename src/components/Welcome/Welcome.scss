@@ -1,0 +1,117 @@
+.wel {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-color: #000000;
+    padding-top: 50px;
+
+
+    .wel_box {
+        width: 50%;
+        height: 1px;
+        margin: auto;
+        background-color: #fff;
+    }
+
+    h1 {
+        font-size: 40px;
+        margin-top: 30px;
+        color: #E11B22;
+        font-weight: 100;
+    }
+
+    p {
+        width: 60%;
+        padding-top: 20px;
+        line-height: 25px;
+        margin: auto;
+        color: #fff;
+    }
+
+    .wel_btn {
+        width: auto;
+        height: 120px;
+
+    }
+
+    button {
+        width: 100px;
+        height: 30px;
+        margin-top: 20px;
+        background-color: #949494;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+
+
+    }
+
+    button:nth-child(2) {
+        width: 200px;
+        height: 30px;
+        margin-left: 20px;
+        background-color: unset;
+        border: 1px solid red;
+    }
+
+}
+
+@media(max-width:600px) {
+    .wel {
+        text-align: center;
+        width: 100%;
+        height: auto;
+        background-color: #000000;
+        padding-top: 50px;
+
+
+        .wel_box {
+            width: 50%;
+            height: 1px;
+            margin: auto;
+            background-color: #fff;
+        }
+
+        h1 {
+            font-size: 40px;
+            margin-top: 30px;
+            color: #E11B22;
+            font-weight: 100;
+        }
+
+        p {
+            width: 80%;
+            padding-top: 20px;
+            line-height: 25px;
+            margin: auto;
+            color: #fff;
+        }
+
+        .wel_btn {
+            width: auto;
+            height: 120px;
+
+        }
+
+        button {
+            width: 100px;
+            height: 30px;
+            margin-top: 20px;
+            background-color: #949494;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+
+
+        }
+
+        button:nth-child(2) {
+            width: 200px;
+            height: 30px;
+            margin-left: 20px;
+            background-color: unset;
+            border: 1px solid red;
+        }
+
+    }
+}

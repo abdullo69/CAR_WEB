@@ -1,0 +1,63 @@
+.comes {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    padding-top: 80px;
+    flex-wrap: wrap;
+
+
+    h3 {
+        font-size: 30px;
+        margin-left: 60px;
+    }
+
+    .come {
+        display: flex;
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+        flex-wrap: wrap;
+
+        .come_img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 600px;
+            height: 100%;
+
+            img {
+                width: 80%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 30px;
+            }
+        }
+
+        .come_text {
+            width: 745px;
+            height: 100%;
+            color: #fff;
+            padding-left: 30px;
+            line-height: 35px;
+
+            h4 {
+                line-height: 30px;
+                padding-top: 20px;
+            }
+
+            .come_button {
+                width: 100%;
+                height: 100px;
+
+                button {
+                    width: 200px;
+                    height: 30px;
+                    color: #fff;
+                    border: 1px solid red;
+                    background-color: unset;
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}
